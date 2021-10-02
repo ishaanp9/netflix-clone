@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  flex-direction: 'row';
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: rgb(17, 5, 5); */
+  height: 60px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_black {
+    background-color: rgb(17, 5, 5);
+}
+
+.nav_logo {
+  object-fit: contain;
+  width: 80px;
+  top: 0;
+  margin-left: 25px;
+}
+
+.nav_avatar {
+  object-fit: contain;
+  width: 30px;
+  top: 0;
+  margin-right: 25px;
+}
